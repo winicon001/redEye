@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.001504] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.002074] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.050407] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.055355] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[0.058787] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/winicon/my_bot/build/my_bot', '--', '-j4', '-l4'], 'cwd': '/home/winicon/my_bot/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'winicon'), ('SSH_CLIENT', '192.168.1.66 65208 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/winicon/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/winicon/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/winicon'), ('TERM_PROGRAM_VERSION', '1.92.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b34ef131-0e05-40b2-8651-f976e73a1408.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/winicon/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/winicon/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/winicon/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'winicon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/winicon/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/bin/remote-cli:/home/winicon/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e0b407c17c.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/winicon/ros2_ws/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/winicon/my_bot/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.66 65208 192.168.1.210 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/winicon/ros2_ws/install/sllidar_ros2:/opt/ros/humble')]), 'shell': False}
+[0.099047] (-) TimerEvent: {}
+[0.200015] (-) TimerEvent: {}
+[0.301484] (-) TimerEvent: {}
+[0.402681] (-) TimerEvent: {}
+[0.503766] (-) TimerEvent: {}
+[0.589632] (my_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.603848] (-) TimerEvent: {}
+[0.704580] (-) TimerEvent: {}
+[0.805259] (-) TimerEvent: {}
+[0.906009] (-) TimerEvent: {}
+[1.006955] (-) TimerEvent: {}
+[1.107717] (-) TimerEvent: {}
+[1.169985] (my_bot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.207917] (-) TimerEvent: {}
+[1.242444] (my_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.308069] (-) TimerEvent: {}
+[1.408873] (-) TimerEvent: {}
+[1.509712] (-) TimerEvent: {}
+[1.587566] (my_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.609886] (-) TimerEvent: {}
+[1.710693] (-) TimerEvent: {}
+[1.747556] (my_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.768345] (my_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.779574] (my_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.810877] (-) TimerEvent: {}
+[1.860429] (my_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.868407] (my_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.898918] (my_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[1.906197] (my_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/winicon/my_bot/build/my_bot\n'}
+[1.911217] (-) TimerEvent: {}
+[1.997405] (my_bot) CommandEnded: {'returncode': 0}
+[2.011413] (-) TimerEvent: {}
+[2.112090] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[2.112348] (-) TimerEvent: {}
+[2.143998] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/winicon/my_bot/build/my_bot'], 'cwd': '/home/winicon/my_bot/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'winicon'), ('SSH_CLIENT', '192.168.1.66 65208 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/winicon/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/winicon/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/winicon'), ('TERM_PROGRAM_VERSION', '1.92.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b34ef131-0e05-40b2-8651-f976e73a1408.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/winicon/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/winicon/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/winicon/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'winicon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/winicon/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/bin/remote-cli:/home/winicon/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e0b407c17c.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/winicon/ros2_ws/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/winicon/my_bot/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.66 65208 192.168.1.210 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/winicon/ros2_ws/install/sllidar_ros2:/opt/ros/humble')]), 'shell': False}
+[2.176900] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.178445] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.180364] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[2.181006] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/config/my_controllers.yaml\n'}
+[2.181650] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/config/rvis_config01.rviz\n'}
+[2.182253] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/config/rviz_config02.rviz\n'}
+[2.184139] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/description/camera.xacro\n'}
+[2.184732] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[2.185403] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[2.186015] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/description/lidar.xacro\n'}
+[2.186673] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[2.187346] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[2.187977] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/description/ros2_control.xacro\n'}
+[2.189157] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[2.189729] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[2.190991] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/worlds/cafe.world\n'}
+[2.191676] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/worlds/construction.world\n'}
+[2.192268] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[2.192898] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/worlds/robotSpace.world\n'}
+[2.193991] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[2.195039] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[2.196068] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[2.196883] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[2.197774] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/environment/path.sh\n'}
+[2.198623] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[2.199469] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/local_setup.bash\n'}
+[2.200286] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/local_setup.sh\n'}
+[2.201125] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[2.201954] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[2.202490] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/package.dsv\n'}
+[2.212626] (-) TimerEvent: {}
+[2.234554] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[2.235426] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[2.236207] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[2.237042] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/package.xml\n'}
+[2.242712] (my_bot) CommandEnded: {'returncode': 0}
+[2.312787] (-) TimerEvent: {}
+[2.413571] (-) TimerEvent: {}
+[2.454184] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[2.458025] (-) EventReactorShutdown: {}

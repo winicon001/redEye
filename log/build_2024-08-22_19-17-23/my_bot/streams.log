@@ -1,0 +1,38 @@
+[0.071s] Invoking command in '/home/winicon/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/winicon/my_bot/build/my_bot -- -j4 -l4
+[0.718s] Invoked command in '/home/winicon/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/winicon/my_bot/build/my_bot -- -j4 -l4
+[0.870s] Invoking command in '/home/winicon/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/winicon/my_bot/build/my_bot
+[0.898s] -- Install configuration: ""
+[0.902s] -- Execute custom install script
+[0.912s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/config/empty.yaml
+[0.913s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/config/my_controllers.yaml
+[0.914s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/config/rvis_config01.rviz
+[0.915s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/config/rviz_config02.rviz
+[0.918s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/description/camera.xacro
+[0.919s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[0.919s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[0.920s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/description/lidar.xacro
+[0.921s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.922s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.923s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/description/ros2_control.xacro
+[0.925s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[0.925s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.927s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/worlds/cafe.world
+[0.927s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/worlds/construction.world
+[0.928s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/worlds/empty.world
+[0.929s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/worlds/robotSpace.world
+[0.930s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.931s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.932s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.933s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.934s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/environment/path.sh
+[0.935s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/environment/path.dsv
+[0.936s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/local_setup.bash
+[0.936s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/local_setup.sh
+[0.937s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/local_setup.zsh
+[0.938s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/local_setup.dsv
+[0.939s] -- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/package.dsv
+[0.969s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.970s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.971s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.972s] -- Up-to-date symlink: /home/winicon/my_bot/install/my_bot/share/my_bot/package.xml
+[0.978s] Invoked command in '/home/winicon/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/winicon/my_bot/build/my_bot

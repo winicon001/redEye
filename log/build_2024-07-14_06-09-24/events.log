@@ -1,0 +1,139 @@
+[0.000000] (-) TimerEvent: {}
+[0.001585] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.002165] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.052549] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.053584] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/winicon/my_bot/my_bot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/winicon/my_bot/install/my_bot'], 'cwd': '/home/winicon/my_bot/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('GTK_CSD', '0'), ('USER', 'winicon'), ('SSH_AGENT_PID', '3593'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_CACHE_HOME', '/home/winicon/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/winicon'), ('OLDPWD', '/home/winicon'), ('ROS_PYTHON_VERSION', '3'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/winicon/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'winicon'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_MENU_PREFIX', 'lxqt-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('XDG_DATA_HOME', '/home/winicon/.local/share'), ('XDG_CONFIG_HOME', '/home/winicon/.config'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXVMVqS0/agent.3531'), ('AMENT_PREFIX_PATH', '/home/winicon/ros2_ws/install/sllidar_ros2:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('LXQT_SESSION_CONFIG', 'session'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('PWD', '/home/winicon/my_bot/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc:/etc/xdg:/usr/share'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/winicon/ros2_ws/install/sllidar_ros2:/opt/ros/humble')]), 'shell': False}
+[0.099086] (-) TimerEvent: {}
+[0.199936] (-) TimerEvent: {}
+[0.300761] (-) TimerEvent: {}
+[0.401916] (-) TimerEvent: {}
+[0.502979] (-) TimerEvent: {}
+[0.604009] (-) TimerEvent: {}
+[0.705017] (-) TimerEvent: {}
+[0.806077] (-) TimerEvent: {}
+[0.867756] (my_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.906246] (-) TimerEvent: {}
+[1.007009] (-) TimerEvent: {}
+[1.107976] (-) TimerEvent: {}
+[1.209023] (-) TimerEvent: {}
+[1.310225] (-) TimerEvent: {}
+[1.411263] (-) TimerEvent: {}
+[1.512176] (-) TimerEvent: {}
+[1.612969] (-) TimerEvent: {}
+[1.637158] (my_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.681627] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.713140] (-) TimerEvent: {}
+[1.814064] (-) TimerEvent: {}
+[1.914950] (-) TimerEvent: {}
+[2.015823] (-) TimerEvent: {}
+[2.060513] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.087117] (my_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.089203] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.091718] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.107815] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.115986] (-) TimerEvent: {}
+[2.216737] (-) TimerEvent: {}
+[2.318045] (-) TimerEvent: {}
+[2.419003] (-) TimerEvent: {}
+[2.476480] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.502993] (my_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.504007] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.505584] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.519138] (-) TimerEvent: {}
+[2.546493] (my_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.619321] (-) TimerEvent: {}
+[2.720142] (-) TimerEvent: {}
+[2.820888] (-) TimerEvent: {}
+[2.921651] (-) TimerEvent: {}
+[3.022335] (-) TimerEvent: {}
+[3.123004] (-) TimerEvent: {}
+[3.223693] (-) TimerEvent: {}
+[3.317138] (my_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.323891] (-) TimerEvent: {}
+[3.424707] (-) TimerEvent: {}
+[3.525414] (-) TimerEvent: {}
+[3.617859] (my_bot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.625585] (-) TimerEvent: {}
+[3.726349] (-) TimerEvent: {}
+[3.827098] (-) TimerEvent: {}
+[3.927849] (-) TimerEvent: {}
+[4.028614] (-) TimerEvent: {}
+[4.060121] (my_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.128770] (-) TimerEvent: {}
+[4.229578] (-) TimerEvent: {}
+[4.330386] (-) TimerEvent: {}
+[4.431120] (-) TimerEvent: {}
+[4.531865] (-) TimerEvent: {}
+[4.632654] (-) TimerEvent: {}
+[4.733755] (-) TimerEvent: {}
+[4.834860] (-) TimerEvent: {}
+[4.935959] (-) TimerEvent: {}
+[5.033001] (my_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.036084] (-) TimerEvent: {}
+[5.107575] (my_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.118189] (my_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.125218] (my_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.136252] (-) TimerEvent: {}
+[5.165174] (my_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.174617] (my_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.194332] (my_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[5.198975] (my_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/winicon/my_bot/build/my_bot\n'}
+[5.213606] (my_bot) CommandEnded: {'returncode': 0}
+[5.215469] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[5.217734] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/winicon/my_bot/build/my_bot', '--', '-j4', '-l4'], 'cwd': '/home/winicon/my_bot/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('GTK_CSD', '0'), ('USER', 'winicon'), ('SSH_AGENT_PID', '3593'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_CACHE_HOME', '/home/winicon/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/winicon'), ('OLDPWD', '/home/winicon'), ('ROS_PYTHON_VERSION', '3'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/winicon/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'winicon'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_MENU_PREFIX', 'lxqt-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('XDG_DATA_HOME', '/home/winicon/.local/share'), ('XDG_CONFIG_HOME', '/home/winicon/.config'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXVMVqS0/agent.3531'), ('AMENT_PREFIX_PATH', '/home/winicon/ros2_ws/install/sllidar_ros2:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('LXQT_SESSION_CONFIG', 'session'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('PWD', '/home/winicon/my_bot/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc:/etc/xdg:/usr/share'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/winicon/ros2_ws/install/sllidar_ros2:/opt/ros/humble')]), 'shell': False}
+[5.236444] (-) TimerEvent: {}
+[5.337206] (-) TimerEvent: {}
+[5.372975] (my_bot) CommandEnded: {'returncode': 0}
+[5.437536] (-) TimerEvent: {}
+[5.490305] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[5.523365] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/winicon/my_bot/build/my_bot'], 'cwd': '/home/winicon/my_bot/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('GTK_CSD', '0'), ('USER', 'winicon'), ('SSH_AGENT_PID', '3593'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_CACHE_HOME', '/home/winicon/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/winicon'), ('OLDPWD', '/home/winicon'), ('ROS_PYTHON_VERSION', '3'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/winicon/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'winicon'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_MENU_PREFIX', 'lxqt-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('XDG_DATA_HOME', '/home/winicon/.local/share'), ('XDG_CONFIG_HOME', '/home/winicon/.config'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXVMVqS0/agent.3531'), ('AMENT_PREFIX_PATH', '/home/winicon/ros2_ws/install/sllidar_ros2:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('LXQT_SESSION_CONFIG', 'session'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('PWD', '/home/winicon/my_bot/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc:/etc/xdg:/usr/share'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/winicon/ros2_ws/install/sllidar_ros2:/opt/ros/humble')]), 'shell': False}
+[5.537716] (-) TimerEvent: {}
+[5.557867] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.561093] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.563977] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[5.593898] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/config/my_controllers.yaml\n'}
+[5.624501] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/config/rvis_config01.rviz\n'}
+[5.638004] (-) TimerEvent: {}
+[5.654716] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/config/rviz_config02.rviz\n'}
+[5.691208] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/description/camera.xacro\n'}
+[5.722694] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[5.738173] (-) TimerEvent: {}
+[5.753864] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[5.785592] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/description/lidar.xacro\n'}
+[5.816455] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[5.838380] (-) TimerEvent: {}
+[5.847417] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[5.879967] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/description/ros2_control.xacro\n'}
+[5.911361] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[5.938545] (-) TimerEvent: {}
+[5.942505] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[5.977211] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/worlds/cafe.world\n'}
+[6.008673] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/worlds/construction.world\n'}
+[6.038322] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[6.038960] (-) TimerEvent: {}
+[6.072850] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/worlds/robotSpace.world\n'}
+[6.104233] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[6.136607] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[6.139138] (-) TimerEvent: {}
+[6.172945] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[6.203517] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[6.234457] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/environment/path.sh\n'}
+[6.239312] (-) TimerEvent: {}
+[6.269604] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[6.300334] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/local_setup.bash\n'}
+[6.330855] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/local_setup.sh\n'}
+[6.339498] (-) TimerEvent: {}
+[6.366181] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[6.396074] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[6.427602] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/package.dsv\n'}
+[6.439694] (-) TimerEvent: {}
+[6.463183] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[6.495156] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[6.525747] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[6.539883] (-) TimerEvent: {}
+[6.556728] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/my_bot/install/my_bot/share/my_bot/package.xml\n'}
+[6.594647] (my_bot) CommandEnded: {'returncode': 0}
+[6.640029] (-) TimerEvent: {}
+[6.740659] (-) TimerEvent: {}
+[6.802546] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[6.805070] (-) EventReactorShutdown: {}
