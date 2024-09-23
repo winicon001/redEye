@@ -1,2 +1,2 @@
 # redEye
-Complete Red Eye robot project files
+Some redeye robot preparatory code
